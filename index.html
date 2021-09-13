@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="src/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="src/font-awesome.min.css">
+</head>
+<body>
+	<div class="container py-5 back-image">
+    <!-- For demo purpose-->
+    <header class="text-center">
+        <h1 class="display-4 text-white  font-weight-bold mb-4">Cuenta Regresiva</h1>
+    </header>
+
+    <div class="py-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <!-- Countdown 4-->
+                <div class=" text-white text-center mb-5">
+                    <p class="mb-0 font-weight-bold text-uppercase">El evento inicia dentro de:</p>
+                    <div id="clock-c" class="countdown py-4"></div>
+
+                    <!-- Call to actions -->
+                    <ul class="list-inline ">
+                        <li class="list-inline-item pt-2">
+                            <button id="btn-pause" type="button" class="btn btn-demo text-white "><i class="glyphicon glyphicon-repeat"></i>Pausa</button>
+                        </li>
+                        <li class="list-inline-item pt-2">
+                            <button id="btn-resume" type="button" class="btn btn-demo text-white "><i class="glyphicon glyphicon-repeat"></i>Reanudar</button>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="src/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="src/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="src/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+</html>
